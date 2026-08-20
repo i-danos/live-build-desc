@@ -10,11 +10,3 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: OBS specific live-build hooks
  Distribution generic live-build hooks
-
-Package: live-build-desc-trixie
-Architecture: all
-Provides: live-build-desc
-Depends: ${misc:Depends},${dist:Depends},live-build-desc-hooks
-Description: OBS specific live-build package for Debian trixie
- Meta package to hold all debootstrap --print-debs trixie dependencies.
- Which got later sligtly modified to fit live-build needs.
