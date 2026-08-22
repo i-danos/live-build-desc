@@ -1,0 +1,9 @@
+/tmp/
+/.debhelper/
+/files
+/*.substvars
+/*.debhelper.log
+/debhelper-build-stamp
+/autoreconf.*
+/live-build-desc-hooks/
+/live-build-desc-trixie/
